@@ -4,31 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>petshop</title>
+    <link id="icon" rel="shortcut icon" href="imagens\icon-pet.png" />
         <!--CSS EXTERNO-->
     <link rel="stylesheet" href="CSS\estilo.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css'>
 </head>
 <body>
-    <div id="topo">
-        <div id="logo">
-            <a href="">
-                <img src="" alt="Logo">
-            </a>
+    <div id="conteiner_topo">
+        <div id="topo">
+            <div id="logo">
+                <a href="">
+                    <img src="" alt="Logo">
+                </a>
+            </div>
+
+
+            <input type="text" placeholder=" Pesquisar "/>
+            <div id="lupa" onclick="alert('Pesquisado!');"></div>
+
+            
+            <nav id="menu">
+                <ul>        
+                    <li><a href="#">Home</a></li>  
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>                             
+                </ul>    
+            </nav>
         </div>
-        <section id="busca">
-            <input type="text" placeholder=" Digite sua busca" id="input-busca">
+        <div id>
+            <section id="banner">
+                <img src="Colocar imagem aqui!!!!!!!" alt="banner">
+            </section>    
+        </div>
+    </div>    
+    <div id="conteiner_conteudo">
+        <h1>
+            navegue por categorias
+        </h1>
+
+        <section id="categorias">
+            <div class="categoria">
+                <a href="#produtos1">    
+                    <img src="imagens\img_cao.jpeg" alt="Categoria-1">
+                    <span class="texto">
+                    Cachorros
+                    </span>
+                </a>
+            </div>
+            <div class="categoria">
+               <a href="">
+                <img src="imagens\img_gato.jpeg" alt="Categoria-2">
+                    <span class="texto">
+                        Gatos
+                    </span>
+                </a>
+            </div>
+            <div class="categoria">
+                <a href="">    
+                    <img src="imagens\img_roedor.jpeg" alt="Categoria-3">
+                    <span class="texto">
+                        Roedores
+                    </span>
+                </a>
+            </div>
         </section>
-        <nav id="menu">
-            <ul>        
-                 <li><a href="#">Home</a></li>  
-                 <li><a href="#">Sobre</a></li>
-                 <li><a href="#">Produtos</a></li>
-                 <li><a href="#">Contato</a></li>                             
-            </ul>    
-        </nav>
     </div>
+    <h2>Produtos para Cachorros</h2>
+    <div id="produtos1">
+        <div class="produto">
+            <a href="">
+                <img id="img" src="imagens\racao_granplus_cao.jpeg" alt="racao_granplus_cao"\>
+                <h3>Ração GranPlus Cães adultos Frango e Carne</h3>
+            </a>
+                <p>
+                    R$98,90
+                </p>
+        </div>
 
+        <div class="produto1">
+            <a href="">
+                <img id="img" src="imagens\racao_granplus_cao.jpeg" alt="racao_granplus_cao"\>
+                <h3>Ração GranPlus Cães adultos Frango e Carne</h3>
+            </a>
+                <p>
+                    R$98,90
+                </p>
+        </div>
 
+        <div class="produto">
+            <a href="">
+                <img id="img" src="imagens\racao_granplus_cao.jpeg" alt="racao_granplus_cao"\>
+                <h3>Ração GranPlus Cães adultos Frango e Carne</h3>
+            </a>
+                <p>
+                    R$98,90
+                </p>
+        </div>
 
+        <div class="produto1">
+            <a href="">
+                <img id="img" src="imagens\racao_granplus_cao.jpeg" alt="racao_granplus_cao"\>
+                <h3>Ração GranPlus Cães adultos Frango e Carne</h3>
+            </a>
+                <p>
+                    R$98,90
+                </p>
+        </div>
+    </div>
 
 <script src="script.js"></script>
 </body>
