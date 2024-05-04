@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petshop</title>
+    <link id="icon" rel="shortcut icon" href="imagens\icon-pet.png" />
+        <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="CSS\estilo.css">
+    <!--Adicionando a lupa da busca-->
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css'>
+</head>
+<body>
+    <!--Inicio do topo-->
+    <div id="conteiner_topo">
+        <div id="topo">
+            <div id="logo">
+                <a href="">
+                    <img src="" alt="Logo">
+                </a>
+            </div>
+
+            <input type="text" placeholder=" Pesquisar "/>
+            <div id="lupa" onclick="alert('Pesquisado!');"></div>
+
+            <nav id="menu">
+                <ul>        
+                    <li><a href="#">Home</a></li>  
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>                             
+                </ul>    
+            </nav>
+        </div>
+        <div>
+            <section id="banner">
+                <img src="Colocar imagem aqui!!!!!!!" alt="banner">
+            </section>    
+        </div>
+    </div>    
+    <div id="conteiner_conteudo">
+        <h1>
+            navegue por categorias
+        </h1>
+
+        <section id="categorias">
+            <div class="categoria">
+                <a href="#cachorros">    
+                    <img src="imagens\img_cao.jpeg" alt="Categoria-1">
+                    <span class="texto">
+                    Cachorros
+                    </span>
+                </a>
+            </div>
+            <div class="categoria">
+               <a href="#gatos">
+                <img src="imagens\img_gato.jpeg" alt="Categoria-2">
+                    <span class="texto">
+                        Gatos
+                    </span>
+                </a>
+            </div>
+            <div class="categoria">
+                <a href="">    
+                    <img src="imagens\img_roedor.jpeg" alt="Categoria-3">
+                    <span class="texto">
+                        Roedores
+                    </span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!--Produtos dos cachorros-->
+    
+    <div id="cachorros">
+        <h2>Produtos para Cachorros</h2>
+        <div id="produtos1">
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\racao_granplus_cao.jpeg" alt="racao_granplus_cao"\>
+                    <h3>Ração GranPlus Cães adultos Frango e Carne</h3>
+                </a>
+                    <p>
+                        R$98,90
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\racao_golden_cao.jpeg" alt="racao_golden_cao"\>
+                    <h3>Ração Golden Cães Adultos Raças Pequenas 
+                        Carne e Arroz</h3>
+                </a>
+                    <p>
+                        R$21,50
+                    </p>
+            </div>
+
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\caminha_dog.jpeg" alt="caminha_dog"\>
+                    <h3>Cama Retangular Azul</h3>
+                </a>
+                    <p>
+                        R$103,92
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\comedouro.jpeg" alt="comedouro"\>
+                    <h3>Comedouro Alumínio Leve</h3>
+                </a>
+                    <p>
+                        R$8,91  
+                    </p>
+            </div>
+        </div>
+    </div>
+
+        <!--Produtos dos felinos-->
+
+    <div id="gatos">
+        <h2>Produtos Para Felinos</h2>
+        <div id="produtos1">
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\racao_golden_gato_frango.jpeg" alt="racao_golden_gato_frango"\>
+                    <h3>Ração Golden Gatos Frango</h3>
+                </a>
+                    <p>
+                        R$26,91
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\racao_golden_gato_salmao.jpeg" alt="racao_golden_gato_salmao"\>
+                    <h3>Ração Golden Gatos Salmão</h3>
+                </a>
+                    <p>
+                        R$27,45
+                    </p>
+            </div>
+
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\whiskas_petisco.jpeg" alt="whiskas_petisco"\>
+                    <h3>Petisco Whiskas Temptations Anti Bola de 
+                        Pelo Gatos Adultos</h3>
+                </a>
+                    <p>
+                        R$10,35
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\brinquedo_gato.jpeg" alt="brinquedo_gato"\>
+                    <h3>Brinquedo Pelúcia Bola com Catnip Flicks Único</h3>
+                </a>
+                    <p>
+                        R$15,21
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Produtos para roedores-->
+    <div id="roedores">
+        <h2>Produtos Para Roedores</h2>
+        <div id="produtos1">
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\racao_hamster.jpeg" alt="racao_hamster"\>
+                    <h3>Ração Nutrópica para Hamster Natural</h3>
+                </a>
+                    <p>
+                        R$66,90
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\gaiola.jpeg" alt="gaiola"\>
+                    <h3>Gaiola Para Hamster 2 Andares Teto Plástico Vermelha</h3>
+                </a>
+                    <p>
+                        R$149,90
+                    </p>
+            </div>
+
+            <div class="produto">
+                <a href="">
+                    <img id="img" src="imagens\hamster_ball.jpeg" alt="whiskas_petisco"\>
+                    <h3>Bola de Exercício para Hamster</h3>
+                </a>
+                    <p>
+                        R$34,90
+                    </p>
+            </div>
+
+            <div class="produto1">
+                <a href="">
+                    <img id="img" src="imagens\bebedouro_hamster.jpeg" alt="bebedouro_hamster"\>
+                    <h3>Bebedouro Hamster</h3>
+                </a>
+                    <p>
+                        R$19,90
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="left">
+         <h4 class="title-footer">Pet<span>Shop</span></h4>
+         <p class="links">
+          
+          <a href="#" title="Home">Home</a>
+          <a href="#" title="Html">Códigos Html</a>
+          <a href="#" title="Css">Códigos Css</a>
+          <a href="#" title="jQuery">Templates Html Css</a>
+         </p>
+         <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+         </div>
+                       <p class="Copyright">Copyright &copy; 2024 PetShop FIAP - Todos os Direitos Reservados.</p>
+        </div><!--Left-->
+        <div class="right">
+         <h4 class="title-footer">Contato</h4>
+         <form action="#" method="post">
+          <input type="text" name="nome" placeholder="Nome" required=""/>
+          <input type="email" name="email" placeholder="E-mail" required=""/>
+          <input type="text" name="assunto" placeholder="assunto" required=""/>
+          <textarea name="messagem" placeholder="Messagem" required=""></textarea>
+          <button class="btn">Enviar</button>
+         </form>
+        </div><!--Right-->
+       </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
